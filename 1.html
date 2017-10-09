@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OtthWrld</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script/vars.js" defer></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/arrays.js" defer></script>
+    <script src="script/worlds.js" defer></script>
+</head>
+
+<body>
+    <div id="head">
+        
+        <div class="buttonContainer">
+            <button id="storyButton" class="headerButtons">История мира</button>
+            <button id="projectButton" class="headerButtons">О проекте</button>
+            <button id="developerButton" class="headerButtons">О создателе</button>
+        </div>
+    </div>
+    
+    <div id="hiddenText"></div>
+
+    <div id="mainContainer">
+
+        <div id="menuFrame">
+            <p>Локация:</p>
+            <p class="menuFrameResults" id="currLocation"></p>
+            <table>
+                <tr>
+                    <td>Модификаций:</td>
+                    <td class="menuFrameResults" id="currLvl"></td>
+                </tr>
+                <tr>
+                    <td>Частей:</td>
+                    <td class="menuFrameResults" id="currExp"></td>
+                    <td class="menuFrameResults" id="maxExp"></td>
+                </tr>
+                <tr>
+                    <td>Прочность:</td>
+                    <td class="menuFrameResults" id="currHp"></td>
+                    <td class="menuFrameResults" id="maxHp"></td>
+                </tr>
+            </table>
+            <table id="battleStats">
+                <tr>
+                    <td>Враг:</td>
+                </tr>
+                <tr>
+                    <td class="menuFrameResults" id="currEnemyName"></td>
+                </tr>
+                <tr>
+                    <td>Здоровье:</td>
+                    <td class="menuFrameResults" id="currEnemyHp"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="mainFrameOut">
+            <div id="mainFrameIn">
+                <div class="mainFrameTextField"></div>
+            </div>
+        </div>
+
+        <div id="statsFrame">
+            <div id="test1"></div>
+            <div id="test2"></div>
+        </div>
+    </div>
+    <div id="foot">
+        <button id="workButton">WorK!</button>
+    </div>
+</body>
+
+</html>
