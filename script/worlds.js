@@ -79,18 +79,21 @@ var r01w01 = [
     [
         {
             mnstrName:"Маленькая мохнатка",
-            mnstrHp: 30,
-            mnstrDmg: 2
+            mnstrHp: 20,
+            mnstrDmg: 2,
+            mnstrExp: 1
         },
         {
             mnstrName:"Большая мохнатка",
-            mnstrHp: 50,
-            mnstrDmg: 3
+            mnstrHp: 30,
+            mnstrDmg: 3,
+            mnstrExp: 2
         },
         {
             mnstrName:"Злая мохнатка",
-            mnstrHp: 70,
-            mnstrDmg: 5
+            mnstrHp: 50,
+            mnstrDmg: 5,
+            mnstrExp: 3
         }
     ],
     {
@@ -146,18 +149,21 @@ var r01w02 = [
     [
         {
             mnstrName:"Ржавый Ц-трон",
-            mnstrHp: 30,
-            mnstrDmg: 2
+            mnstrHp: 20,
+            mnstrDmg: 2,
+            mnstrExp: 1
         },
         {
             mnstrName:"Ц-трон с палкой",
-            mnstrHp: 50,
-            mnstrDmg: 3
+            mnstrHp: 30,
+            mnstrDmg: 3,
+            mnstrExp: 2
         },
         {
             mnstrName:"Блестящий Ц-трон",
-            mnstrHp: 70,
-            mnstrDmg: 5
+            mnstrHp: 50,
+            mnstrDmg: 5,
+            mnstrExp: 3
         }
     ],
     {
@@ -213,18 +219,21 @@ var r01w03 = [
     [
         {
             mnstrName:"Сухая Дохреножка",
-            mnstrHp: 30,
-            mnstrDmg: 2
+            mnstrHp: 20,
+            mnstrDmg: 2,
+            mnstrExp: 1
         },
         {
             mnstrName:"Вонючая Дохреножка",
-            mnstrHp: 50,
-            mnstrDmg: 3
+            mnstrHp: 30,
+            mnstrDmg: 3,
+            mnstrExp: 2
         },
         {
             mnstrName:"Скользкая Дохреножка",
-            mnstrHp: 70,
-            mnstrDmg: 5
+            mnstrHp: 50,
+            mnstrDmg: 5,
+            mnstrExp: 3
         }
     ],
     {
